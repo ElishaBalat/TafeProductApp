@@ -46,6 +46,9 @@ namespace ProductApps
             cProduct.calTotalChargeWrap();
             totalWrapChargeTextBlock.Text = Convert.ToString(cProduct.TotalChargeWrap);
 
+            cProduct.calTotalChargeGST();
+            totalGSTChargeTextBlock.Text = Convert.ToString(cProduct.TotalChargeGST);
+
         }
 
         private void clearButton_Click(object sender, RoutedEventArgs e)
